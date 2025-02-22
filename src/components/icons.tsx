@@ -1,4 +1,4 @@
-import { Command, CreditCard, LayoutDashboardIcon, LogIn, LucideIcon, LucideProps, UserPen } from "lucide-react";
+import { Check, Command, CreditCard, Edit, LayoutDashboardIcon, LogIn, LucideIcon, LucideProps, MoreHorizontal, Plus, Trash, UserPen, UsersRound } from "lucide-react";
 
 export type Icon = LucideIcon;
 
@@ -7,7 +7,13 @@ export const Icons = {
   logo: Command,
   login: LogIn,
   billing: CreditCard,
+  jamaah: UsersRound,
   userPen: UserPen,
+  moreHorizontal: MoreHorizontal,
+  edit: Edit,
+  trash: Trash,
+  plus: Plus,
+  check: Check,
   gitHub: ({ ...props }: LucideProps) => (
     <svg
       aria-hidden='true'

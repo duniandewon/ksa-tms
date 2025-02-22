@@ -12,3 +12,13 @@ export interface NavItem {
   isActive?: boolean;
   items?: NavItem[];
 }
+
+export type Status = "ba-calon" | "calon" | "jamaah" | "alumni"
+
+export interface JamaahListingItem {
+  id: string
+  ktp: string
+  name: string
+  status: Status
+  registrationDate: string
+}
